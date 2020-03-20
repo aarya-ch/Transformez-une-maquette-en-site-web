@@ -1,0 +1,347 @@
+/*GENERAL*/
+body
+{
+	font-family: Arial;
+}
+
+#block1
+{
+	background-color: #FFD180;
+}
+
+h1
+{
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+h2
+{
+	font-size: 1.3em;
+}
+
+h3
+{
+	font-size: 1.2em;
+	color: #424242;
+}
+
+h4
+{
+	font-size: 1.1em;
+	font-weight: bold;
+
+}
+
+h5
+{
+	font-size: 0.9em;
+
+}
+
+p
+{
+	font-size: 0.9em;
+}
+
+.texte
+{
+	font-size: 0.8em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: justify;
+}
+
+.mail
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em
+}
+
+.liste
+{
+	color: #424242;
+	font-size: 0.75em;
+}
+
+.nom
+{
+	font-weight: bold;
+	color: #FFD180;
+}
+
+.ligne
+{
+	border-bottom: 2px solid #FFD180;
+	padding-bottom: 10px;
+}
+
+
+/*BLOC1*/
+
+.img-fluid
+{
+	border-radius: 50%;
+}
+
+#photo
+{
+	margin: auto;
+	padding: 80px 50px 30px 50px;
+}
+
+#block1 p
+{
+	color: #424242;
+}
+#block1 h2
+{
+	background-color: #424242;
+	color: #FFD180;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#block1 ul
+{
+	list-style-type: none;
+}
+
+#block1 i
+{
+	text-align: center;
+}
+
+/*contact*/
+#contact
+{
+	color: #424242;
+	padding-bottom: 15px;
+}
+
+#contact h2
+{
+	margin-bottom: 40px;
+}
+
+#contact p
+{
+	
+	font-weight: bold;
+	padding-left: 15px;
+
+}
+.apresliste
+{
+	display: inline-flex;
+}
+
+
+/*aproposdemoi*/
+#aproposdemoi h2
+{
+	margin-bottom: 25px;
+}
+#aproposdemoi p
+{
+	color: #616161;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 10px 15px 120px 15px;
+	text-align: justify;
+}
+/*loisirs*/
+#loisirs p
+{
+	text-align: center;
+	font-size: 40px;
+}
+#loisirs i
+{
+	margin-right: 20px;
+}
+/*BLOC2*/
+#block2
+{
+	
+	padding-top: 150px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+}
+
+#block2 p
+{
+	color: #757575
+}
+#block2 i
+{
+	color: #FFD180;
+	padding-right: 20px;
+}
+
+#block2 h2
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#block2 h4
+{
+	text-transform: uppercase;
+	color: #424242;
+}
+
+#block2 h5
+{
+	text-transform: uppercase;
+	color: #424242;
+}
+
+#block2 ul
+{
+	color: #424242;
+}
+
+
+/*TITRE*/
+#trait
+{
+	text-decoration: underline #FFD180;
+}
+
+/*FORMATION*/
+#formation
+{
+	padding-top: 175px;
+	padding-bottom: 25px;
+}
+
+#formation h2
+{
+	margin-bottom: 55px;
+}
+/*EXPERIENCE*/
+#experience
+{
+	padding-bottom: 40px;
+}
+#experience h2
+{
+	margin-bottom: 40px;
+}
+
+/*RECOMMANDATIONS*/
+#recommandation h2
+{
+	margin-bottom: 30px;
+}
+
+.recommandations
+{
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+/*BOOTSRAP*/
+@media (max-width: 767px) 
+{
+	 #contact p
+	 {
+	 	text-align: center;
+	 	padding-left: 0px;
+	 }
+
+	 #aproposdemoi p
+	 {
+	 	padding-bottom: 50px;
+	 }
+
+	 #formation
+	 {
+	 	padding-top: 50px;
+	 }
+
+	 .liste
+	 {
+	 	font-size: 0.9em;
+	 }
+
+	 #photo
+	 {
+	 	padding-left: 100px; 
+	 	padding-right: 100px;
+	 }
+}
+
+@media (max-width: 456px) 
+{
+	 #contact p
+	 {
+	 	text-align: center;
+	 	padding-left: 0px;
+	 }
+
+	 #aproposdemoi p
+	 {
+	 	padding-bottom: 50px;
+	 }
+
+	 #formation
+	 {
+	 	padding-top: 50px;
+	 }
+
+	 .liste
+	 {
+	 	font-size: 0.9em;
+	 }
+
+	 #photo
+	 {
+	 	padding-left: 100px; 
+	 	padding-right: 100px;
+	 }
+
+	 h2
+	 {
+	 	font-size: 0.8em;
+	 }
+
+	 h3
+	 {
+	 	font-size: 0.75em;
+	 }
+	 h4
+	 {
+	 	font-size: 0.7em;
+	 }
+	 h5
+	 {
+	 	font-size: 0.65em;
+	 }
+	 p
+	 {
+	 	font-size: 0.6em;
+	 }
+
+	 .liste
+	 {
+	 	font-size: 0.6em;
+	 }
+
+	 .mail
+	 {
+	 	font-size: 0.6em;
+	 }
+
+	 .texte
+	 {
+	 	font-size: 0.6em;
+	 	text-align: justify;
+	 }
+}
+		
+
+
